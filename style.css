@@ -1,0 +1,399 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.tag {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #1c7eae;
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+ul,
+ol {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+section {
+  margin-bottom: 40px;
+  background-color: #f5f5f5;
+  padding: 40px;
+}
+
+/* Header */
+header {
+  background-color: #0072c6;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.item i {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.item a,
+.item span {
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* About section */
+#about {
+  background-color: #fff;
+  padding: 60px 0;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.intro img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.intro .text {
+  margin-left: 20px;
+}
+
+.intro p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  color: #333;
+  transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+  background-color: #ddd;
+}
+
+/* Hero */
+.hero {
+  background-image: url("https://picsum.photos/id/1015/1200/400");
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h2 {
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+  text-shadow: 2px 2px #333;
+}
+/* About section */
+#about {
+  padding: 80px 0;
+  background-color: #f9f9f9;
+}
+
+#about h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #333;
+}
+
+#about p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  color: #555;
+}
+
+#about ul {
+  margin-left: 40px;
+}
+
+#about li {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Work experience section */
+#work-experience {
+  background-color: #f9f9f9;
+  padding: 80px 0;
+}
+
+#work-experience h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #333;
+}
+
+#work-experience ul {
+  list-style: none;
+  margin-left: 40px;
+}
+
+#work-experience li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 40px;
+  color: #555;
+}
+
+#work-experience li::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #333;
+  position: absolute;
+  left: 0;
+  top: 6px;
+}
+
+#work-experience h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#work-experience p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Independent projects section */
+#independent-projects {
+  background-color: #f9f9f9;
+  padding: 80px 0;
+}
+
+#independent-projects h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #333;
+}
+
+#independent-projects h3 {
+  margin-left: 40px;
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#independent-projects ul {
+  margin-left: 80px;
+}
+
+#independent-projects li {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Work skills section */
+#work-skills {
+  background-color: #f9f9f9;
+  padding: 80px 0;
+}
+
+#work-skills h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #333;
+}
+
+#work-skills ul {
+  margin-left: 40px;
+}
+
+#work-skills li {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+#work-skills li::before {
+  content: "\2022";
+  color: #333;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+ol {
+  opacity: 0;
+  animation: fadeIn 0.5s forwards;
+}
+
+h1 {
+  animation-delay: 0.1s;
+}
+
+h2 {
+  animation-delay: 0.2s;
+}
+
+h3 {
+  animation-delay: 0.3s;
+}
+
+p,
+ul,
+ol {
+  animation-delay: 0.4s;
+}
+/* 手機版樣式 */
+@media (max-width: 767px) {
+  /* 調整 header 的高度和內容的對齊方式 */
+  header {
+    height: auto;
+    text-align: center;
+  }
+
+  /* 調整 contact-info 的顯示方式，改為一行顯示 */
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: transparent; /* 移除背景色 */
+  }
+
+  /* 調整 item 的寬度，改為自動適應內容 */
+  .item {
+    width: auto;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    margin-bottom: 10px; /* 調整間距 */
+  }
+  .item a {
+    color: #fff; /* 修改為白色 */
+  }
+
+  /* 將文字移到圖片下方 */
+  .intro {
+    flex-direction: column;
+  }
+
+  /* 調整文字的寬度和對齊方式 */
+  .text {
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+  }
+}
